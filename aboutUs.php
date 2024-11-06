@@ -30,15 +30,19 @@
 
     <!-- ScrollReveal link-->
     <script src="https://unpkg.com/scrollreveal"></script>
+
+    
+
 </head>
 <body>
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-    <!-- link to js -->
-    <script type="text/javascript" src="script.js"></script>
 
+    <!-- link to js -->
+    <script type="text/javascript" src="js/script.js"></script>
+    
     <div class="all-content">
         
         <!-- navigation bar - Bootstrap -->
@@ -51,22 +55,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="aboutUs.html">About Us</a>
+                        <a class="nav-link" href="aboutUs.php">About Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Menu</a>
+                        <a class="nav-link" href="menu.php">Menu</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="reviews.html">Reviews</a>
+                        <a class="nav-link" href="reviews.php">Reviews</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
+                        <a class="nav-link" href="faq.php">FAQ</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                       </li>
                  
                 </ul>
@@ -78,49 +82,50 @@
             </div>
           </nav>
 
-          <section class="about" id="about">
-            <h1 class="heading"> <span>Check our</span> FAQ </h1>
+        <!--about us section-->
+        <section class="about" id="about">
+            <h1 class="heading"> <span>about</span> us </h1>
             <div class="about-us-row">
                 <div class="about-us-content">
+                    <h3>What makes our coffee special?</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         <br>aliquid mollitia et perspiciatis vel ut quam itaque incidunt?
                         <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, minima.
                     </p>
+                    <button id="btn">Learn More</button>
                 </div>
             </div>
 
         </section>
+
     </div>
 
-    <!--faq section-->
-    <!--jquery used on the faq questions-->
-    <section class="contact">
-        <div class="faq-container">
-            <h1 class="heading" style="text-align: center; padding-top: 10px;"><span>FA</span>Q</h1>
-            <ul class="faq-list">
-              <li class="faq-item">
-                <div class="faq-question">What are your business hours?</div>
-                <div class="faq-answer">We are open Monday to Friday from 7:00 AM to 9:00 PM, and on weekends from 8:00 AM to 10:00 PM.</div>
-              </li>
-              <li class="faq-item">
-                <div class="faq-question">Do you offer free Wi-Fi?</div>
-                <div class="faq-answer">Yes, we provide free Wi-Fi for all our customers to enjoy while they relax and savor their coffee.</div>
-              </li>
-              <li class="faq-item">
-                <div class="faq-question">What types of coffee do you serve?</div>
-                <div class="faq-answer">We offer a wide variety of coffee, including espresso, cappuccino, latte, macchiato, and drip coffee. We also have a selection of flavored coffee and iced coffee options.
-                </div>
-              </li>
-              <li class="faq-item">
-                <div class="faq-question">Do you offer dairy-free milk alternatives?</div>
-                <div class="faq-answer">Absolutely! We offer a range of dairy-free milk options, including almond milk, soy milk, and oat milk, for customers with dietary preferences or restrictions.</div>
-              </li>
-            </ul>
-          </div>
+    <section class="review" id="review">
+        <h1 class="review-heading">about Our <span> Staff </span></h1>
+        <div class="review-box-container">
+          <div class="review-box">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis ea dolorum enim quaerat delectus vero cum nemo! Obcaecati maiores tempora voluptates sed, saepe necessitatibus nobis, debitis quos aut impedit asperiores.</p>
+            <img src="./assets/img/staff1.jpg" alt="" class="user">
+            <h3>Felipe Menezes</h3>
+  
+  
+          <div class="review-box">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis ea dolorum enim quaerat delectus vero cum nemo! Obcaecati maiores tempora voluptates sed, saepe necessitatibus nobis, debitis quos aut impedit asperiores.</p>
+            <img src="./assets/img/staff2.jpg" alt="" class="user">
+            <h3>Otavio Meiabomba</h3>
+
+  
+          <div class="review-box">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis ea dolorum enim quaerat delectus vero cum nemo! Obcaecati maiores tempora voluptates sed, saepe necessitatibus nobis, debitis quos aut impedit asperiores.</p>
+            <img src="./assets/img/staff3.jpg" alt="" class="user">
+            <h3>Felipe Vicente</h3>
+  
+          
+        </div>
     </section>
 
-    <!--footer section-->
-    <section class="footer">
+     <!--footer section-->
+     <section class="footer">
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>

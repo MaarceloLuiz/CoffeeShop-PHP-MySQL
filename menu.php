@@ -31,8 +31,6 @@
     <!-- ScrollReveal link-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    
-
 </head>
 <body>
     <!--Bootstrap JS-->
@@ -41,7 +39,7 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
     <!-- link to js -->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <div class="all-content">
         
         <!-- navigation bar - Bootstrap -->
@@ -54,22 +52,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="aboutUs.html">About Us</a>
+                        <a class="nav-link" href="aboutUs.php">About Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Menu</a>
+                        <a class="nav-link" href="menu.php">Menu</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="reviews.html">Reviews</a>
+                        <a class="nav-link" href="reviews.php">Reviews</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
+                        <a class="nav-link" href="faq.php">FAQ</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                       </li>
                  
                 </ul>
@@ -81,50 +79,95 @@
             </div>
           </nav>
 
-        <!--about us section-->
-        <section class="about" id="about">
-            <h1 class="heading"> <span>about</span> us </h1>
+          <section class="about" id="about">
+            <h1 class="heading"> <span>Check our</span> Prices </h1>
             <div class="about-us-row">
                 <div class="about-us-content">
-                    <h3>What makes our coffee special?</h3>
+                    <h3>Why buying with us?</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         <br>aliquid mollitia et perspiciatis vel ut quam itaque incidunt?
                         <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, minima.
                     </p>
-                    <button id="btn">Learn More</button>
                 </div>
             </div>
 
         </section>
-
     </div>
 
-    <section class="review" id="review">
-        <h1 class="review-heading">about Our <span> Staff </span></h1>
-        <div class="review-box-container">
-          <div class="review-box">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis ea dolorum enim quaerat delectus vero cum nemo! Obcaecati maiores tempora voluptates sed, saepe necessitatibus nobis, debitis quos aut impedit asperiores.</p>
-            <img src="./assets/img/staff1.jpg" alt="" class="user">
-            <h3>Felipe Menezes</h3>
-  
-  
-          <div class="review-box">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis ea dolorum enim quaerat delectus vero cum nemo! Obcaecati maiores tempora voluptates sed, saepe necessitatibus nobis, debitis quos aut impedit asperiores.</p>
-            <img src="./assets/img/staff2.jpg" alt="" class="user">
-            <h3>Otavio Meiabomba</h3>
 
-  
-          <div class="review-box">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis ea dolorum enim quaerat delectus vero cum nemo! Obcaecati maiores tempora voluptates sed, saepe necessitatibus nobis, debitis quos aut impedit asperiores.</p>
-            <img src="./assets/img/staff3.jpg" alt="" class="user">
-            <h3>Felipe Vicente</h3>
-  
-          
-        </div>
+    <!--menu section-->
+    <section>
+        <!--bootstrap table-->
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Coffee</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Latte</td>
+                <td>€3,60</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Cappucino</td>
+                <td>€3,60</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Flat White</td>
+                <td>€3,40</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Mocha</td>
+                <td>€3,80</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Macha</td>
+                <td>€4,00</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Iced Latte</td>
+                <td>€4,00</td>
+              </tr>
+            </tbody>
+          </table>
     </section>
 
-     <!--footer section-->
-     <section class="footer">
+    <section>
+        <!--bootstrap table-->
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Additionals</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Syrup</td>
+                <td>€0,50</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Alternative Milk</td>
+                <td>€0,50</td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+    
+    <!--footer section-->
+    <section class="footer">
         <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>

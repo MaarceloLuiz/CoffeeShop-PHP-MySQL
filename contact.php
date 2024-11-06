@@ -40,7 +40,7 @@
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <!-- link to js -->
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
     <div class="all-content">
         
@@ -54,22 +54,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="aboutUs.html">About Us</a>
+                        <a class="nav-link" href="aboutUs.php">About Us</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Menu</a>
+                        <a class="nav-link" href="menu.php">Menu</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="reviews.html">Reviews</a>
+                        <a class="nav-link" href="reviews.php">Reviews</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
+                        <a class="nav-link" href="faq.php">FAQ</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                       </li>
                  
                 </ul>

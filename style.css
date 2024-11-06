@@ -183,52 +183,6 @@ html::-webkit-scrollbar{
 .contact .heading span{
     color: var(--black);
 }
- 
-.contact .contact-row{
-    display: flex;
-    background-color: white;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.contact .contact-row .map{
-    flex: 1 1 45rem;
-    width: 100%;
-    object-fit: cover;
-}
-
-.contact .contact-row form{
-    flex: 1 1 45rem;
-}
-
-.contact .contact-row form h3{
-    text-transform: uppercase;
-    font-size: 2rem;
-}
-
-.contact .contact-row form .inputBox{
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    border: 1rem solid rgba(255,255,255,.3)
-}
-
-.contact .contact-row form .inputBox span{
-    font-size: 2rem;
-    padding-left:1rem ;
-}
-.contact .contact-row form .inputBox input{
-    width: 100%;
-    padding: 1rem;
-    font-size: 1.1rem;
-    text-transform: none;
-    background: none;
-}
-
-.contact .contact-row form .btn{
-    text-align: center;
-}
 
 /*footer*/
 .footer{
@@ -281,27 +235,107 @@ html::-webkit-scrollbar{
     max-width: 800px;
     margin: 0 auto;
     padding: 10px;
-  }
-  
-  .faq-list {
+}
+
+.faq-list {
     list-style: none;
     padding: 0;
-  }
-  
-  .faq-item {
+}
+
+.faq-item {
     margin-bottom: 20px;
-  }
-  
-  .faq-question {
+}
+
+.faq-question {
     font-weight: bold;
     cursor: pointer;
-  }
-  
-  .faq-answer {
+}
+
+.faq-answer {
     display: none;
     margin-top: 5px;
-  }
-  
-  .faq-answer.show {
+}
+
+.faq-answer.show {
     display: block;
-  }
+}
+
+@media (max-width: 1058px){
+    header{
+        padding: 16px 60px;
+    }
+    section{
+        padding: 50px 60px;
+    }
+    h1{
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 990px) {
+    header {
+        padding: 16px 4%;
+    }
+
+    section {
+        padding: 50px 4%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 12px 4%;
+    }
+    #menu-icon{
+        display:initial;
+    }
+    .navbar{
+        position: absolute;
+        top: -570px;
+        left:0;
+        right:0;
+        display:flex;
+        flex-direction: column;
+        background: var(--main-color);
+        row-gap: 1.4rem;
+        padding: 20px;
+        transition: 0.3s;
+        text-align: center;
+    }
+    .navbar a {
+        color:var(--black);
+    }
+    .navbar a:hover{
+        color:var(--bg);
+    }
+    .navbar.active{
+        top:100%
+    }
+}
+
+@media (max-width: 360px){
+    header{
+        padding: 11px 4%;
+    }
+    h1{
+        font-size: 1.4rem;
+    }
+    .about-us-content h3 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .about-us-content p{
+        font-size:0.8rem;
+        font-weight:300;
+    }
+    .heading{
+        font-size: 1.2rem;
+    }
+    .review-heading{
+        font-size: 1.2rem;
+    }
+}

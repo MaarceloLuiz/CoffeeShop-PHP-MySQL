@@ -1,141 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Shop Website</title>
+<?php include 'includes/header.php'; ?>
 
-    <!--CSS-->
-    <link rel="stylesheet" href="style.css">
+<section class="about" id="about">
+  <h1 class="heading"> <span>Check our</span> FAQ </h1>
+  <div class="about-us-row">
+      <div class="about-us-content">
+          <h3>Have questions? We've got answers!</h3>
+              <p>Explore our FAQ page to find solutions to commonly asked 
+              <br> queries about our products, services, and more.
+              <br> Whether you're curious about our menu offerings, policies or 
+              <br> simply want to get to know us better, this is the go-to place for information.
+              <br> Can't find what you're looking for?
+              <br> Feel free to reach out, and our team will be happy to assist you. 
+              <br> Let's make your experience with us as smooth and enjoyable as possible. 
+              <br> Dive into our FAQs and discover everything you need to know!
+              </p>
+      </div>
+  </div>
 
-    <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</section>
 
-    <!-- icons -->
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</div> <!-- End of all-content div -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!---->
+<!--faq section-->
+<!--jquery used on the faq questions-->
+<section class="contact">
+  <div class="faq-container">
+    <h1 class="heading" style="text-align: center;" style="padding-top: 10px;" style="color:#424242;"><span>FA</span>Q</h1>
+    <ul class="faq-list">
 
-    <!-- new font: Indie Flower -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+      <li class="faq-item">
+        <div class="faq-question">What are your business hours?</div>
+        <div class="faq-answer">We are open Monday to Friday from 7:00 AM to 9:00 PM, and on weekends from 8:00 AM to 10:00 PM.</div>
+      </li>
 
-    <!-- new font: paytone one -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+      <li class="faq-item">
+        <div class="faq-question">Do you offer free Wi-Fi?</div>
+        <div class="faq-answer">Yes, we provide free Wi-Fi for all our customers to enjoy while they relax and savor their coffee.</div>
+      </li>
 
-    <!-- ScrollReveal link-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-</head>
-<body>
-    <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!--JQuery-->
-    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
-    <!-- link to js -->
-    <script type="text/javascript" src="js/script.js"></script>
+      <li class="faq-item">
+        <div class="faq-question">What types of coffee do you serve?</div>
+        <div class="faq-answer">We offer a wide variety of coffee, including espresso, cappuccino, latte, macchiato, and drip coffee. We also have a selection of flavored coffee and iced coffee options.</div>
+      </li>
 
-    <div class="all-content">
-        
-        <!-- navigation bar - Bootstrap -->
-        <nav class="navbar navbar-expand-lg" id="navbar">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#" id="logo"><img src="./assets/img/Coffee-shop-logo-design-template-on-transparent-background-PNG.png" alt="" style="height: 100px; width: 100px;"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="aboutUs.php">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="menu.php">Menu</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="reviews.php">Reviews</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="faq.php">FAQ</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
-                      </li>
-                 
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
+      <li class="faq-item">
+        <div class="faq-question">Do you offer dairy-free milk alternatives?</div>
+        <div class="faq-answer">Absolutely! We offer a range of dairy-free milk options, including almond milk, soy milk, and oat milk, for customers with dietary preferences or restrictions.</div>
+      </li>
 
-          <section class="about" id="about">
-            <h1 class="heading"> <span>Check our</span> FAQ </h1>
-            <div class="about-us-row">
-                <div class="about-us-content">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        <br>aliquid mollitia et perspiciatis vel ut quam itaque incidunt?
-                        <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, minima.
-                    </p>
-                </div>
-            </div>
+      <li class="faq-item">
+        <div class="faq-question">Do you have outdoor seating?</div>
+        <div class="faq-answer">Yes, we have a large outdoor space with seating for 50 people.</div>
+      </li>
 
-        </section>
-    </div>
+      <li class="faq-item">
+        <div class="faq-question">What types of payment do you accept?</div>
+        <div class="faq-answer">We accept cash, credit cards, and debit cards.</div>
+      </li>
 
-    <!--faq section-->
-    <!--jquery used on the faq questions-->
-    <section class="contact">
-        <div class="faq-container">
-            <h1 class="heading" style="text-align: center; padding-top: 10px;"><span>FA</span>Q</h1>
-            <ul class="faq-list">
-              <li class="faq-item">
-                <div class="faq-question">What are your business hours?</div>
-                <div class="faq-answer">We are open Monday to Friday from 7:00 AM to 9:00 PM, and on weekends from 8:00 AM to 10:00 PM.</div>
-              </li>
-              <li class="faq-item">
-                <div class="faq-question">Do you offer free Wi-Fi?</div>
-                <div class="faq-answer">Yes, we provide free Wi-Fi for all our customers to enjoy while they relax and savor their coffee.</div>
-              </li>
-              <li class="faq-item">
-                <div class="faq-question">What types of coffee do you serve?</div>
-                <div class="faq-answer">We offer a wide variety of coffee, including espresso, cappuccino, latte, macchiato, and drip coffee. We also have a selection of flavored coffee and iced coffee options.
-                </div>
-              </li>
-              <li class="faq-item">
-                <div class="faq-question">Do you offer dairy-free milk alternatives?</div>
-                <div class="faq-answer">Absolutely! We offer a range of dairy-free milk options, including almond milk, soy milk, and oat milk, for customers with dietary preferences or restrictions.</div>
-              </li>
-            </ul>
-          </div>
-    </section>
+      <li class="faq-item">
+        <div class="faq-question">Do you sell loose coffee beans?</div>
+        <div class="faq-answer">Yes, we sell a variety of loose coffee beans, including our signature blend and our seasonal blends. We also sell a variety of coffee accessories, such as grinders, filters, and mugs.</div>
+      </li>
 
-    <!--footer section-->
-    <section class="footer">
-        <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-youtube"></a>
-        </div>
+      <li class="faq-item">
+        <div class="faq-question">Are you pet-friendly?</div>
+        <div class="faq-answer">Yes, we are pet-friendly, we also offer free treats for the pets!</div>
+      </li>
 
-        <div class="links">
-            <a href="index.html">home</a>
-            <a href="aboutUs.html">about us</a>
-            <a href="menu.html">menu</a>
-            <a href="reviews.html">reviews</a>
-            <a href="contact.html">contact</a>
-        </div>
+      <li class="faq-item">
+        <div class="faq-question">Can I book your space for private events or meetings</div>
+        <div class="faq-answer">Certainly! We offer our space for private events and meetings. Contact us for more information and to make reservations.</div>
+      </li>
 
-    </section>
-</body>
-</html>
+      <li class="faq-item">
+        <div class="faq-question">Are your pastries and snacks made in-house?</div>
+        <div class="faq-answer">Our pastries are home-made! And snacks are sourced from local bakeries known for their quality.</div>
+      </li>
+
+      <li class="faq-item">
+        <div class="faq-question">Do you offer decaffeinated coffee options?</div>
+        <div class="faq-answer">Absolutely! Our menu includes decaffeinated versions of many of our popular coffee drinks. Feel free to ask your barista for the decaf option.</div>
+      </li>
+
+      <li class="faq-item">
+        <div class="faq-question">Are there gluten-free options on your menu?</div>
+        <div class="faq-answer">Yes, we offer a selection of gluten-free pastries and snacks to accommodate different dietary preferences.</div>
+      </li>
+
+      <li class="faq-item">
+        <div class="faq-question">Where can I find some links to other websites that contain useful information?</div>
+        <div class="faq-answer">You can find valuable information on the following websites: 
+            <br /> https://www.w3schools.com/asp/ 
+            <br /> https://www.w3schools.com/php/php_mysql_intro.asp
+            <br /> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide 
+            <br /> https://www.techtarget.com/searchsoftwarequality/definition/Web-application-Web-app </div>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+<?php include 'includes/footer.php'; ?>

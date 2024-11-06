@@ -12,7 +12,7 @@
             <br>the rich aroma of freshly brewed coffee. 
             <br>A flavor you won't forget!
             </p>
-            <asp:Button class="btn" runat="server" Text="Learn More" OnClick="LearnMoreButton" /> 
+            <button id="btn">Learn More</button>
         </div>
     </div>
 </section>

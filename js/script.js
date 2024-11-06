@@ -22,4 +22,14 @@ $(document).ready(function () {
       $(this).next(".faq-answer").slideToggle(500);
   });
 });
+
+
+
+$(document).ready(function() {
+  $('.navbar-toggler').click(function() {
+      $('#navbar').toggleClass('expanded');
+  });
+});
+
   
+console.log("script.js is loaded and running!");

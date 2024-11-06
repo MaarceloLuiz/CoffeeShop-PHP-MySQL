@@ -7,10 +7,10 @@
   <div class="about-us-row">
       <div class="about-us-content">
           <h3>How to Contact us</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              <br>aliquid mollitia et perspiciatis vel ut quam itaque incidunt?
-              <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, minima.
-          </p>
+          <p>If you have any questions, feedback, or need assistance,
+            <br>we'd love to hear from you.
+            <br>Please fill out the contact form at the bottom of this page,
+            <br>and our team will get back to you as soon as possible!
       </div>
   </div>
 </section>

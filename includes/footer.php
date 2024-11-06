@@ -18,5 +18,10 @@
             <a href="contact.php">contact</a>
         </div>
     </footer> 
+
+    <!--JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- link to js -->
+    <script src="js/script.js"></script>
 </body>
 </html>

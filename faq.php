@@ -14,6 +14,7 @@
               <br> Let's make your experience with us as smooth and enjoyable as possible. 
               <br> Dive into our FAQs and discover everything you need to know!
               </p>
+              <button id="btn" onclick="window.location.href='faq.php#contact'">Explore FAQs</button>
       </div>
   </div>
 
@@ -23,7 +24,7 @@
 
 <!--faq section-->
 <!--jquery used on the faq questions-->
-<section class="contact">
+<section class="contact" id="contact">
   <div class="faq-container">
     <h1 class="heading" style="text-align: center;" style="padding-top: 10px;" style="color:#424242;"><span>FA</span>Q</h1>
     <ul class="faq-list">

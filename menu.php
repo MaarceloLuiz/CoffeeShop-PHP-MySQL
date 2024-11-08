@@ -20,7 +20,7 @@
           <br> This is more than a menu; it's an invitation to explore the
           <br> world of exceptional coffee, one sip at a time!
           </p>
-          <button class="btn">Check Your Cart</button>
+          <button id="btn" onclick="window.location.href='cart.php'">Check Your Cart</button>
   </div>
 </section>
 

@@ -12,7 +12,7 @@
             <br>the rich aroma of freshly brewed coffee. 
             <br>A flavor you won't forget!
             </p>
-            <button id="btn">Learn More</button>
+            <button id="btn" onclick="window.location.href='aboutUs.php#review'">Learn More</button>
         </div>
     </div>
 </section>

@@ -14,6 +14,7 @@
           <br>Your thoughts matter, and we can't wait to hear your unique coffee tales. 
           <br>Cheers to shared experiences and the joy of a well-brewed cup!
           </p>
+          <button id="btn" onclick="window.location.href='reviews.php#review'">Check Reviews</button>
       </div>
   </div>
 </section>

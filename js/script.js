@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $("input").focus(function(){
-        $(this).css("background-color", "brown");
+        $(this).css("background-color", "#e0f7fa");
     });
     $("input").blur(function(){
-        $(this).css("background-color", "grey");
+        $(this).css("background-color", "#f0f0f0");
     });
 });
 

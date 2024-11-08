@@ -14,7 +14,7 @@
       <br>crafted by skilled baristas.
       </p>
     <br />
-      <button id="btn">Order Now</button>
+      <button id="btn" onclick="window.location.href='menu.php'">Order Now</button> <!--redirecting the user to menu.php page-->
   </div>
 </div>
 

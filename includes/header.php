@@ -70,6 +70,15 @@
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
+
+                <div class="header-icon ms-3">
+                  <a href="cart.php">
+                    <img src="./assets/img/cart-regular-24.png" alt="Cart"/>
+                  </a>
+                </div>
+
               </div>
             </div>
         </nav>
+        
+        <div id="menu-overlay"></div>

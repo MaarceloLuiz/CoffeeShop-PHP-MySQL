@@ -11,6 +11,8 @@
             <br>we'd love to hear from you.
             <br>Please fill out the contact form at the bottom of this page,
             <br>and our team will get back to you as soon as possible!
+          </p>
+            <button id="btn" onclick="window.location.href='contact.php#contact-box'">Reach Out</button>
       </div>
   </div>
 </section>
@@ -21,7 +23,7 @@
 <section class="contact" id="contact">
   <h1 class="heading" style="text-align: center;" style="padding-top: 10px;" style="color:#424242;"><span>CONTACT</span> US</h1>
 
-  <div class="container">
+  <div class="container" id="contact-box">
       <div class="contact-box">
           <div class="left"></div>
           <div class="right">

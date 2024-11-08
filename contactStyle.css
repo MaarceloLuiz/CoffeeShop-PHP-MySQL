@@ -75,6 +75,7 @@
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: .3s;
+    max-height: 300px; /* limiting the max resize the textarea can make*/
 }
 
 .field:hover {

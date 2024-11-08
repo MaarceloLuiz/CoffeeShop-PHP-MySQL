@@ -1,5 +1,8 @@
 <link href="menuStyle.css" rel="stylesheet" />
-<?php include 'includes/header.php'; ?>
+<?php 
+include 'includes/header.php';
+include 'includes/add_to_cart.php';
+?>
 
 <!--contact text-->
 <section class="about" id="about">
@@ -36,7 +39,15 @@
         <h3 id="Brazilian-Espresso">Brazilian Espresso</h3>
         <div class="content">
           <span id="Brazilian-Espresso-Price">€20</span>
-          <button class="products-btn" OnClick="AddToCartBrazillianBeans_Click">Add To Cart</button>
+
+
+          <form method="POST">
+            <input type="hidden" name="product_name" value="Brazilian Espresso">
+            <input type="hidden" name="product_price" value="20">
+            <button class="products-btn" type="submit">Add To Cart</button>
+          </form>
+
+
         </div>
     </div>
 
@@ -45,7 +56,14 @@
         <h3 id="Italian-Espresso">Italian Espresso</h3>
         <div class="content">
           <span id="Italian-Espresso-Price">€20</span>
-          <button class="products-btn" OnClick="AddToCartItalianBeans_Click">Add To Cart</button>
+
+          <form method="POST">
+            <input type="hidden" name="product_name" value="Italian Espresso">
+            <input type="hidden" name="product_price" value="20">
+            <button class="products-btn" type="submit">Add To Cart</button>
+          </form>
+          
+        
         </div>
     </div>
 
@@ -54,7 +72,14 @@
         <h3 id="Columbian-Espresso">Columbian Espresso</h3>
         <div class="content">
           <span id="Columbian-Espresso-Price">€20</span>
-          <button class="products-btn" OnClick="AddToCartColumbianBeans_Click">Add To Cart</button>
+          
+          <form method="POST">
+            <input type="hidden" name="product_name" value="Columbian Espresso">
+            <input type="hidden" name="product_price" value="20">
+            <button class="products-btn" type="submit">Add To Cart</button>
+          </form>
+          
+        
         </div>
     </div>
 
@@ -63,7 +88,15 @@
         <h3 id="Spanish-Espresso">Spanish Espresso</h3>
         <div class="content">
           <span id="Spanish-Espresso-Price">€20</span>
-          <button class="products-btn" OnClick="AddToCartSpanishBeans_Click">Add To Cart</button>
+
+
+          <form method="POST">
+            <input type="hidden" name="product_name" value="Spanish Espresso">
+            <input type="hidden" name="product_price" value="20">
+            <button class="products-btn" type="submit">Add To Cart</button>
+          </form>
+
+
         </div>
     </div>
 
@@ -73,7 +106,15 @@
         <h3 id="Coffee-Cup">Coffee Cup</h3>
         <div class="content">
           <span id="Coffee-Cup-Price">€10</span>
-          <button class="products-btn" OnClick="AddToCartCoffeeCup_Click">Add To Cart</button>
+          
+
+          <form method="POST">
+            <input type="hidden" name="product_name" value="Coffee Cup">
+            <input type="hidden" name="product_price" value="10">
+            <button class="products-btn" type="submit">Add To Cart</button>
+          </form>
+
+
         </div>
     </div>
 
@@ -82,7 +123,15 @@
         <h3 id="Coffee-Grinder">Coffee Grinder</h3>
         <div class="content">
           <span id="Coffee-Grinder-Price">€30</span>
-          <button class="products-btn" OnClick="AddToCartCoffeeGrinder_Click">Add To Cart</button>
+                    
+
+          <form method="POST">
+            <input type="hidden" name="product_name" value="Coffee Grinder">
+            <input type="hidden" name="product_price" value="30">
+            <button class="products-btn" type="submit">Add To Cart</button>
+          </form>
+
+
         </div>
     </div>
 
@@ -91,7 +140,15 @@
         <h3 id="French-Press">French Press</h3>
         <div class="content">
           <span id="French-Press-Price">€15</span>
-          <button class="products-btn" OnClick="AddToCartFrenchPress_Click">Add To Cart</button>
+                              
+
+          <form method="POST">
+            <input type="hidden" name="product_name" value="French Press">
+            <input type="hidden" name="product_price" value="15">
+            <button class="products-btn" type="submit">Add To Cart</button>
+          </form>
+
+
         </div>
     </div>
 
@@ -100,7 +157,15 @@
         <h3 id="Portafilters">Portafilters</h3>
         <div class="content">
           <span id="Portafilters-Price">€40</span>
-          <button class="products-btn" OnClick="AddToCartPortafilter_Click">Add To Cart</button>
+                                        
+
+          <form method="POST">
+            <input type="hidden" name="product_name" value="Portafilters">
+            <input type="hidden" name="product_price" value="40">
+            <button class="products-btn" type="submit">Add To Cart</button>
+          </form>
+
+
         </div>
     </div>
 

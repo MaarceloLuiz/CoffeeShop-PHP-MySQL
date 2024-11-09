@@ -1,5 +1,15 @@
 <link href="contactStyle.css" rel="stylesheet" />
-<?php include 'includes/header.php'; ?>
+<?php 
+//defining the messages that are going to be displayed to users
+session_start();
+if (isset($_SESSION['feedback'])) {
+    echo "<script>alert('{$_SESSION['feedback']}');</script>";
+    unset($_SESSION['feedback']);
+}
+
+include 'includes/header.php';
+include 'includes/contact_form_to_DB.php';
+?>
 
 <!--contact text-->
 <section class="about" id="about">
@@ -28,11 +38,13 @@
           <div class="left"></div>
           <div class="right">
             <h2>Any Questions?</h2>
-            <input type="text" class="field" placeholder="Your Name" name="name">
-            <input type="email" class="field" placeholder="Email" name="email">
-            <input type="text" class="field" placeholder="Your Phone Number" name="phoneNumber">
-            <textarea class ="field" placeholder="Message" name="message"></textarea>
-            <button class="contact-btn">Submit</button>
+            <form method="POST">
+              <input type="text" class="field" placeholder="Your Name" name="name">
+              <input type="email" class="field" placeholder="Email" name="email">
+              <input type="text" class="field" placeholder="Your Phone Number" name="phoneNumber">
+              <textarea class ="field" placeholder="Message" name="message"></textarea>
+              <button class="contact-btn">Submit</button>
+            </form>
           </div>
       </div>
   </div>
